@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	width: 100%;
+	position: relative;
+}
+
+#c-wrapper{
+	height: 100vh;
+	margin: 0 20px;
+}
+
+#c-wrapper .c-right{
+	height: 100vh;
+	width: 60%;
+}
+
+#c-wrapper .cl-right .img001{
+	width: 100%;
+}
+
+#c-wrapper .cl-right .img002{
+	width: 140px;
+	height: 110px;
+	border-radius: 50%;
+	position: relative;
+	top: -50px;
+	left: 10px;
+	border: 3px solid white;
+}
+
+.btn-large{
+	border: 1px solid #1DA1F2;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #1DA1F2;
+	float: right;
+	margin: 10px 15px;
+}
+
+.c-text .text{
+	padding-left: 15px;
+}
+
+.c-text .judul001{
+	font-weight: bold;
+}
+
+.c-text p{
+	font-weight: none;
+}
+
+#c-wrapper .cl-right{
+	border: 1px solid grey;
+}
+
+#c-wrapper .cl-right .lc{
+	margin-right: 10px;
+	position: relative;
+	top: -10px;
+}
+
+#c-wrapper .cl-right .follow{
+	margin-right: 20px;
+}
+
+#nav-battom{
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav-battom .menu-bottom{
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+#nav-battom .menu-bottom:hover{
+	background-color: #1DA1F2;
+}
+
+#c-wrapper .c-right{
+	padding: 10px 20px;
+}
